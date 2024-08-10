@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#app {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, textarea, select, button {
+    margin-top: 5px;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#preview {
+    margin-top: 30px;
+}
+
+#cardPreview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    position: relative;
+}
+
+#cardPreview img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#cardPreview .content {
+    margin-left: 130px; /* Enough space to accommodate the image */
+    text-align: left;
+}
+
+#cardPreview h3 {
+    margin: 0;
+    font-size: 26px;
+    color: #333;
+}
+
+#cardPreview p {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #555;
+}
+
+#cardPreview .bonuses {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    text-align: left;
+    width: 100%;
+}

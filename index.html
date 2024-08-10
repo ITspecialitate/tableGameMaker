@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Game Component Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Board Game Component Creator</h1>
+        <div>
+            <label for="componentType">Select Component Type:</label>
+            <select id="componentType">
+                <option value="character">Character Sheet</option>
+                <option value="event">Event Card</option>
+                <option value="custom">Custom Card</option>
+            </select>
+        </div>
+
+        <div id="formContainer"></div>
+
+        <div id="preview">
+            <h2>Preview</h2>
+            <div id="cardPreview"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+</html>
